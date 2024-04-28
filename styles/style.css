@@ -7,6 +7,11 @@ body {
     margin: 0px;
 }
 
+h1, p {
+    margin: 0px;
+    padding: 0px;
+}
+
 button {
     background-color: #3882F6;
     padding: 10px 30px;
@@ -31,8 +36,8 @@ button {
 .header {
     display: flex;
     flex-direction: column;
-
-    padding: 20px 110px 0px 110px;
+    gap: 100px;
+    padding: 20px 110px 100px 110px;
 }
 
 .header-bar {
@@ -43,7 +48,6 @@ button {
 .header-bar h1 {
     display: flex;
     align-items: center;
-    margin: 0px;
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -67,12 +71,12 @@ button {
 .header-content {
     flex-grow: 1;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 25px;
 }
 
 .header-content h1 {
-    margin-top: 0px;
     margin-bottom: 5px;
     color: #F9FAF8;
     font-weight: 900;
@@ -88,6 +92,47 @@ button {
 
 .section.odd {
     background-color: #fff;
+}
+
+.section.odd.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.item {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.section.odd.items h1 {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.section.odd.items p {
+    text-align: center;
+    color:#2e3847;
+    font-size: 18px;
+}
+
+.section.odd.items img {
+    border-radius: 10px;
 }
 
 .section.even {
