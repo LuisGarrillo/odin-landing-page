@@ -165,3 +165,48 @@ button {
     font-weight: bold;
     padding-right: 20px;
 }
+
+.section.odd.action {
+    padding: 100px 110px;
+}
+
+.section.odd.action h1, .section.odd.action p{
+    color: #F9FAF8;
+}
+
+.section.odd.action h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.section.odd.action {
+    font-size: 18px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 75px;
+
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.action-button {
+    border: 2.5px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer p {
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 18px;
+}
