@@ -139,3 +139,29 @@ button {
     background-color: #E5E7EB;
 }
 
+.section.even.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 100px;
+}
+
+.author, .quote-text {
+    flex: none;
+    width: 800px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.author {
+    text-align: end;
+    color:#1F2937;
+    font-weight: bold;
+    padding-right: 20px;
+}
